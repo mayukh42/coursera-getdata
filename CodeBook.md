@@ -9,7 +9,14 @@ The following CodeBook describes the variables used in the final tidy data creat
 
 The tidy data comprises of the averages of the below 79 features grouped by activity type and subject id. These 79 features are a subset of 561 features in the original data. The original data contained a total of 7352 observations in the Training Set, and 2947 observations in the Test Set. Only those features involving __mean__ or __standard deviation__ type were selected from the 561 features. 
 
-Original description of the features are available in the 'README.txt', 'features_info.txt', and 'features.txt' which come with the [data archive](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+### Brief description of the experiment and overall dataset
+(Some information from the original data archive's README.txt is reproduced here for completeness).
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed 6 activities wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, triaxial linear acceleration and triaxial angular velocity (in rad/s) were captured respectively at a constant rate of 50Hz. 
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
+
+More description of the features are available in the 'README.txt', 'features_info.txt', and 'features.txt' which come with the [data archive](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 The feature (variable) names are designed to be balanced between long descriptive names and compact screen-space-saving ones, since the latter make it easy to read when a summary of data is viewed in a tabulated format on screen. For example, the first feature is named 'tBodyAcc_Xaxis_mean' instead of 'timeDomainBodyAccelerometerMeanForXaxis', because the latter will not make it easy to read a table with 79 such columns. 
 
