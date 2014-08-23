@@ -12,7 +12,7 @@ The function **filter\_vars\_mean\_sd()** creates a subset containing all 79 fea
 
 The function uses regular expressions to match feature names. In the raw dataset, features that are measurements of mean, standard deviation are found to be suffixed with mean() and std() respectively. 
 
-The function also adds more readable names for the features. Care was taken to keep a balance between long descriptive names and readable names, because often the data would be read in tabular format on a screen, where long names are not desired. In most cases, the original names were good enough, although the brackets '()' were removed. 
+The function also adds more readable names from the file **newvars.txt** for the features. Care was taken to keep a balance between long descriptive names and readable names, because often the data would be read in tabular format on a screen, where long names are not desired. In most cases, the original names were good enough, although the brackets '()' were removed. 
 
 The function returns a data frame, containing the column ids, original names and new names of the 79 features.
 
